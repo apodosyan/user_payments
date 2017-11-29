@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <h1><?= Html::encode($this->title) ?></h1>
 
         <div class="send-many">
-            <?= Html::submitButton('Send Many', ['class' => 'btn btn-primary payment-button']) ?>
+            <?= Html::submitButton('Send Money', ['class' => 'btn btn-primary payment-button']) ?>
         </div>
 
 
